@@ -1,3 +1,20 @@
-first README test.
+ThreadPool
 
-more to come.
+Version 1.1 (November 2011)
+
+Portable, generic thread pool library written in C++.
+
+Authors:
+  Pierre Vorhagen <pvorhagen@gmail.com>
+  Etienne Doms <etienne.doms@gmail.com>
+
+Version History:
+  - 0.1 (Pierre Vorhagen)
+       - initial release after a sleepless night
+  - 0.2
+       makes better use of the STL containers
+  - 1.0 (Etienne Doms joins in)
+       - rewritten for more dynamic scaling
+  - 1.1
+       - race condition in destructor patched
+       - patched for independency of SysV semaphores
