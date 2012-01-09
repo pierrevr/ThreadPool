@@ -101,7 +101,7 @@ void ThreadPool::resume() {
 void * ThreadPool::_routine(void * data) {
     ThreadPool * pool = static_cast<ThreadPool *>(data);
 
-    while (1) {
+    while (true) {
         Worker * worker;
 
 /* -------------------------------------------------------------------------- */
